@@ -8,17 +8,34 @@ let meal="viande"
 console.log("I eat "+ food +" at every "+ meal)
 
 /*******   exercice 2**********/
+
+/***********************************************************************************************
+Correcteur: Yannick GOUGUIA
+
+Code très illisible merci de bien formater votre code et mettre des commentaires
+
+************************************************************************************************/
+
+
 console.log("******exrcice 1-2 ***********");
 const myWatchedSeries = ["black mirror", "money heist", "the big bang theory"];
+
+// Mauvaise reponse, revoir l'exercice
 let myWatchedSeriesLength=3
+
 let myWatchedSeriesSentence="money heist";
 console.log("I watched "+ myWatchedSeriesLength+" series :" +myWatchedSeries[0]+" ; "+myWatchedSeriesSentence+" , "+myWatchedSeries[2])
+
+// Mauvaise reponse, revoir l'exercice
 myWatchedSeries.splice(2,2,"friend")
 console.log(myWatchedSeries)
+
 myWatchedSeries.push("24 hours")
 console.log(myWatchedSeries)
 myWatchedSeries.unshift("il etait une fois en chine")
 console.log(myWatchedSeries)
+
+// Revoir tout l'exercice
 const TmyWatchedSeries = ["black mirror", "money heist", "the big bang theory"];
 console.log(TmyWatchedSeries)
 TmyWatchedSeries.shift()
