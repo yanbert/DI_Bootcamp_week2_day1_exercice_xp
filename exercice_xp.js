@@ -1,41 +1,83 @@
+
 /*******   exercice 1**********/
+
 console.log("******exrcice 1 ***********");
 
-console.log("******exrcice 1-1 ***********");
-let food="attieke"
-let meal="viande"
 
-console.log("I eat "+ food +" at every "+ meal)
+console.log("******exrcice 1-1 ***********");
+
+/**
+ * Dans l'exercice, on nous demande de stocker notre nourriture préférée et aussi notre 
+ *  repas préféré de la journée. 
+ *  console.log des deux.
+ */
+
+let food = "attieke"
+let meal = "viande"
+
+console.log("I eat " + food + " at every " + meal)
 
 /*******   exercice 2**********/
+
 console.log("******exrcice 1-2 ***********");
+
+/**
+ * Dans l'exercice, Nous allons manipuler le element du tableau
+ * modifier,supprimer,ajouter et lister selons les positions
+ */
+
 const myWatchedSeries = ["black mirror", "money heist", "the big bang theory"];
-let myWatchedSeriesLength=3
-let myWatchedSeriesSentence="money heist";
-console.log("I watched "+ myWatchedSeriesLength+" series :" +myWatchedSeries[0]+" ; "+myWatchedSeriesSentence+" , "+myWatchedSeries[2])
-myWatchedSeries.splice(2,2,"friend")
+
 console.log(myWatchedSeries)
-myWatchedSeries.push("24 hours")
+
+let myWatchedSeriesLength = myWatchedSeries.length
+
+let myWatchedSeriesSentence = "I watched 24 hours clock";
+
+console.log(myWatchedSeriesSentence + " , " + myWatchedSeries[0] + " , " + myWatchedSeries[1] + " and " + myWatchedSeries[1])
+
+myWatchedSeries.splice(2, 2, "friend")
+
 console.log(myWatchedSeries)
+
+myWatchedSeries.push("ecole des champions")
+
+console.log(myWatchedSeries)
+
 myWatchedSeries.unshift("il etait une fois en chine")
+
 console.log(myWatchedSeries)
-const TmyWatchedSeries = ["black mirror", "money heist", "the big bang theory"];
-console.log(TmyWatchedSeries)
-TmyWatchedSeries.shift()
-console.log(TmyWatchedSeries)
-const TSmyWatchedSeries = ["black mirror", "money heist", "the big bang theory"];
-let item=TSmyWatchedSeries[1];
-console.log(item);
-console.log(item.charAt(2))
+
+myWatchedSeries.splice(1, 2)
+
+console.log(myWatchedSeries)
+
+console.log("money heist".charAt(2))
+
+console.log(myWatchedSeries)
 
 /*******   exercice 3**********/
+
 console.log("******exrcice 1-3 ***********");
-let temperature=37;
-let TemperatureFahrenheit=(37/5*9+32)
-console.log(temperature +"°C is "+ TemperatureFahrenheit+"°F.");
+
+/***
+*Stocker une température Celsius dans une variable.
+*Convertissez-le en fahrenheit et console.log <temperature>°C is <temperature>°F.
+*Astuce : Devriez-vous créer une autre variable pour maintenir la 
+*température en Fahrenheit ? (ex. point 2)
+ */
+
+let temperature = 37;
+
+let TemperatureFahrenheit = (37 / 5 * 9 + 32)
+
+console.log(temperature + "°C is " + TemperatureFahrenheit + "°F.");
+
 
 /*******   exercice 4**********/
+
 console.log("******exrcice 1-4 ***********");
+
 
 // Prediction: It will output 55, because 34 and 21 are numbers
 // Actual: 55
@@ -46,10 +88,13 @@ console.log("******exrcice 1-4 ***********");
 
 //console.log(3 + 4 + '5');
 //result is 75
+// Prediction:add to 3 and 2 ,concat with to '5'
 
 
 /*******   exercice 5**********/
+
 console.log("******exrcice 1-5 ***********");
+
 //15
 // Prediction: It will number, because 15 is numbers
 // Actual: number
@@ -118,6 +163,7 @@ console.log("******exrcice 1-5 ***********");
 
 
 /**************** exercice 6 *********/
+
 console.log("******exrcice 1-6 ***********");
 
 //5 + "34"
@@ -129,11 +175,12 @@ console.log("******exrcice 1-6 ***********");
 // Actual: 1
 
 //10 % 5
-// Prediction: I don't know
+// Prediction: it's the rest of the division that he returns to us
 // Actual:0
 
 //5 % 10
-// Prediction: I don't know
+// Prediction:it's the rest of the division that he returns to us
+
 // Actual:5
 
 
@@ -142,7 +189,7 @@ console.log("******exrcice 1-6 ***********");
 // Actual:JavaScript
 
 // " " + " "
-// Prediction:I don't know
+// Prediction:It  will "" ,because  it is a concat
 // Actual: ''
 
 //" " + 0
@@ -150,7 +197,8 @@ console.log("******exrcice 1-6 ***********");
 // Actual:0
 
 //true + true
-// Prediction: I don't know
+// Prediction: It  will 2,returns 2 because the console avoids repeating by
+//adding the number of times it is repeated
 // Actual:2
 
 //true + false
@@ -167,10 +215,10 @@ console.log("******exrcice 1-6 ***********");
 // Actual:-1
 
 //!true
-// Prediction:I don't know
+// Prediction: It  will false ,because true is not exist ,this is the false
 // Actual:false
 
-3 - 4
+//3 - 4
 // Prediction:It  will -1 ,because 3-4
 // Actual:-1
 
