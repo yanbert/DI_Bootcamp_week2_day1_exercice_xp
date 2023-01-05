@@ -1,3 +1,11 @@
+/**
+Correcteur: Yannick GOUGUA
+
+Merci de completer cet exercice. 
+il me semble qu'il ya beaucoup plus de donnees a tester.
+*/
+
+
 
 // Prediction: It will output 55, because 34 and 21 are numbers
 // Actual: 55
